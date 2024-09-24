@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @RenzoKa
+- 👀 I’m interested in finding a career that provides me freedom to make a living wherever and whenever it's convenient 
+- 🌱 I’m currently learning HTML, CSS and JavaScript. All in all, basic web development at the moment
+- 👥 I’m looking to collaborate on projects begginer friendly that might contribute me with new skills
+- 📫 You can reach to me through my Github - RenzoKa or through my gmail - renzokawase2008@gmail.com
+- ⚡ Fun fact: I have 2 loveable dogs

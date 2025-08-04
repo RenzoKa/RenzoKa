@@ -22,3 +22,38 @@ header {
     height: 60px;
     overflow-x: 1000;
 }
+
+h1 {
+    position: absolute;
+    top: 8px;
+    left: 46%;
+    font-size: 40px;
+    font-family: 'Mozilla Headline';
+}
+
+nav {
+    position: absolute;
+    right: 40px;
+    top: 22.5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+a:hover {
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #7C99B4;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}

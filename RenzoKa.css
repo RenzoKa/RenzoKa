@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
 header {
     background-color: #7C99B4;
     color: white;
     width: 100%;
     height: 60px;
+    overflow-x: 1000;
 }

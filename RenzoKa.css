@@ -98,3 +98,23 @@ div.catch_phrase_container {
     height: 350px;
 }
 
+h2#catch_phrase {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-style: bold;
+    font-size: 80px;
+    color: #8EB8E5;
+    -webkit-text-stroke: 2px #85b0df;
+}
+
+h3#catch_phrase2 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-style: italic;
+    font-size: 40px;
+    color: #7aa5d3;
+    -webkit-text-stroke: 2px #6f9bca;
+}
+

@@ -16,6 +16,7 @@ body {
 }
 
 header {
+    position: relative;
     background-color: #7C99B4;
     color: white;
     width: 100%;
@@ -72,4 +73,26 @@ a:active {
     text-decoration: none;
     margin: 0 10px;
     box-shadow: 0 0 60px 5px rgba(255, 255, 255, 0.5);
+}
+
+.github_icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github_icon i {
+    font-size: 30px;
+    color: white;
+    transition: color 500ms;
+}
+
+div.catch_phrase_container {
+    background-image: url('cdb.png');
 }

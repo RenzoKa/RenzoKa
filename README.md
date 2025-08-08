@@ -1,3 +1,6 @@
+!!!To access the preview of this website access: https://renzoka.netlify.app/ !!!
+Don't forget to give me feedback even if you didn't like any feature, thank you beforehand!
+
 - 👋 Hi, I’m @RenzoKa
 - 👀 I’m interested in finding a career that provides me freedom to make a living wherever and whenever it's convenient 
 - 🌱 I’m currently learning HTML, CSS and JavaScript. All in all, basic web development at the moment

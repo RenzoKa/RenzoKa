@@ -94,5 +94,7 @@ a:active {
 }
 
 div.catch_phrase_container {
-    background-image: url('cdb.png');
+    background-image: url('background.png');
+    height: 350px;
 }
+

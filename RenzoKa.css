@@ -17,18 +17,20 @@ body {
 
 header {
     position: relative;
-    background-color: #7C99B4;
-    color: white;
+    background-color: #ffffff;
+    color: #222f3a;
     width: 100%;
     height: 60px;
     overflow-x: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     position: absolute;
     top: 8px;
-    left: 44%;
+    left: 14%;
     font-size: 40px;
+    font-style: bold;
     font-family: 'Mozilla Headline';
 }
 
@@ -45,34 +47,25 @@ a {
     box-sizing: border-box;
     border-radius: 15px;
     padding: 10px;
-    color: white;
-    background-color: #7C99B4;
+    color: #222f3a;
     text-decoration: none;
     margin: 0 10px;
-    transition: border-thickness 500ms, background-color 500ms, color 500ms;
+    transition: border-thickness 500ms, background-color 500ms, color 500ms, text-decoration 500ms;
 }
 
 
 a:hover {
-    border: solid 2px white;
-    border-radius: 15px;
     padding: 10px;
-    background-color: #92aec9;
-    color: white;
-    text-decoration: none;
+    text-decoration: underline 4px;
     margin: 0 10px;
-    transition: box-shadow 200ms;
 }
 
 a:active {
     border: solid 2px white;
     border-radius: 15px;
     padding: 8px;
-    background-color: #66839e;
-    color: white;
-    text-decoration: none;
+    text-decoration: underline 3px;
     margin: 0 10px;
-    box-shadow: 0 0 60px 5px rgba(255, 255, 255, 0.5);
 }
 
 .github_icon {
@@ -89,7 +82,7 @@ a:active {
 
 .github_icon i {
     font-size: 30px;
-    color: white;
+    color: #222f3a;
     transition: color 500ms;
 }
 
@@ -102,19 +95,25 @@ h2#catch_phrase {
     position: absolute;
     top: 20%;
     left: 15%;
+    width: 35%;
     font-style: bold;
     font-size: 80px;
-    color: #8EB8E5;
-    -webkit-text-stroke: 2px #85b0df;
+    color: #222f3a;
 }
 
 h3#catch_phrase2 {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 15%;
     font-style: italic;
     font-size: 40px;
-    color: #7aa5d3;
-    -webkit-text-stroke: 2px #6f9bca;
+    color: #222f3ace;
+}
+
+span#gradient {
+    background: linear-gradient(90deg, #053b75, #4c7fb6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-iteration-count: infinite;
 }
 

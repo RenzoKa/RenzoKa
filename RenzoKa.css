@@ -5,116 +5,79 @@
 }
 
 html {
+    font-size: 16px;
     width: 100%;
     height: 100%;
 }
 
 body {
-    margin: 0;
     width: 100%;
     height: 100%;
+    background-color: blue;
 }
 
 header {
-    position: relative;
-    background-color: #7C99B4;
-    color: white;
     width: 100%;
-    height: 60px;
-    overflow-x: 1000;
-}
-
-h1 {
-    position: absolute;
-    top: 8px;
-    left: 44%;
-    font-size: 40px;
-    font-family: 'Mozilla Headline';
-}
-
-nav {
-    box-sizing: border-box;
-    position: absolute;
-    right: 40px;
-    top: 22.5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-}
-
-a {
-    box-sizing: border-box;
-    border-radius: 15px;
-    padding: 10px;
+    height: 10%;
+    background-color: #000000;
     color: white;
-    background-color: #7C99B4;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: border-thickness 500ms, background-color 500ms, color 500ms;
-}
-
-
-a:hover {
-    border: solid 2px white;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: #92aec9;
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: box-shadow 200ms;
-}
-
-a:active {
-    border: solid 2px white;
-    border-radius: 15px;
-    padding: 8px;
-    background-color: #66839e;
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    box-shadow: 0 0 60px 5px rgba(255, 255, 255, 0.5);
-}
-
-.github_icon {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    padding: 5px 5px 5px 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.github_icon i {
-    font-size: 30px;
-    color: white;
-    transition: color 500ms;
+div.header {
+    height: 100%;
+    display: flex;
+    align-items: center
 }
 
-div.catch_phrase_container {
-    background-image: url('background.png');
-    height: 350px;
+img.header_icon {
+    
+}
+ 
+h1 {
+    font-family: ;
 }
 
-h2#catch_phrase {
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    font-style: bold;
-    font-size: 80px;
-    color: #8EB8E5;
-    -webkit-text-stroke: 2px #85b0df;
+/* */
+
+main {
+    width: 100%;
 }
 
-h3#catch_phrase2 {
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    font-style: italic;
-    font-size: 40px;
-    color: #7aa5d3;
-    -webkit-text-stroke: 2px #6f9bca;
+section {
+    width: 100%;
+    background-color: #ffffff;
 }
 
+section.hero_section {
+    height: 500px;
+    background-color: green;
+}
+
+section.technologies_section {
+    height: 600px;
+    background-color: black;
+}
+
+section.reviews_section {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+/* */
+
+footer {
+    width: 100%;
+}
+
+
+
+
+/*                               */
+
+
+
+@media (min-width: 600px) /* Tablets */
+
+@media (min-width: 992px) /* Laptops, desktops */
